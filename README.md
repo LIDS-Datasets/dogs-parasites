@@ -1,11 +1,19 @@
 # Dataset of Parasite Images from Dogs
 
 ## Availability
-  The dataset will be publicly available after the publication of our work entitled "Toward Automating the Diagnosis of Gastrointestinal
-Parasites in Cats and Dogs".
+  The dataset is publicly available. Be sure to cite our paper "Toward automating the diagnosis of gastrointestinal parasites in cats and dogs".
   
 ## Ground-truth
-  Annotations will be provided for classification (species of each annotated parasite), detection (minimum bounding-box of each detected parasite), and segmentation (pixel-level classification).
+  Annotations are provided for semantic segmentation (label), and detection (detection-label).
   
 ## Citation
-  The citation information will be provided here after publication. You must cite our work when using the provided dataset.
+@article{joao2023toward,
+  title={Toward automating the diagnosis of gastrointestinal parasites in cats and dogs},
+  author={Joao, L de M and Proen{\c{c}}a, Let{\'\i}cia Rodrigues and Loiola, Saulo Hudson Nery and In{\'a}cio, Sandra Val{\'e}ria and Dos Santos, Bianca Martins and Rosa, Stefany Laryssa and Soares, Felipe Augusto and Stefano, Vit{\'o}ria Castilho and Osaku, Daniel and Suzuki, Celso Tetsuo Nagase and others},
+  journal={Computers in Biology and Medicine},
+  volume={163},
+  pages={107203},
+  year={2023},
+  publisher={Elsevier}
+}
+
